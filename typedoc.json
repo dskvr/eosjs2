@@ -1,0 +1,14 @@
+{
+  "name": "eosjs2",
+  "ignoreCompilerErrors": "false",
+  "mode": "modules",
+  "out": "docs",
+  "theme": "markdown",
+  "mdEngine": "gitbook",
+  "stripExternal": false,
+  "exclude": "**test*",
+  "readme": "README.md",
+  "hideGenerator": "true",
+  "target": "ES5",
+  "verbose": true
+}
