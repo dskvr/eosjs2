@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ./tsconfig.node.json && cp src/ripemd.js dist && babel dist --out-dir dist",
     "build-web": "webpack",
-    "docs-build": "./node_modules/.bin/typedoc ./src --options typedoc.json && ./node_modules/.bin/gitbook build ./docs",
-    "docs-serve": "./node_modules/.bin/gitbook serve ./docs"
+    "docs-build": "./node_modules/.bin/typedoc ./src --options typedoc.json && ./node_modules/.bin/gitbook build ./docs/build",
+    "docs-serve": "./node_modules/.bin/gitbook serve ./docs/build"
   },
   "author": "block.one",
   "license": "MIT",

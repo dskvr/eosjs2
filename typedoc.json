@@ -2,7 +2,7 @@
   "name": "eosjs2",
   "ignoreCompilerErrors": "false",
   "mode": "modules",
-  "out": "docs",
+  "out": "docs/build",
   "theme": "markdown",
   "mdEngine": "gitbook",
   "stripExternal": false,
