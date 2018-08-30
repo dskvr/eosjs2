@@ -6,9 +6,10 @@
   "theme": "markdown",
   "mdEngine": "gitbook",
   "stripExternal": false,
-  "exclude": "**test*",
+  "exclude": ["**/index*"],
   "readme": "README.md",
   "hideGenerator": "true",
-  "target": "ES5",
-  "verbose": true
+  "verbose": true,
+  "mdSourceRepo": "https://www.github.com/EOSIO/eosjs2",
+  "includes": "doc/static"
 }
