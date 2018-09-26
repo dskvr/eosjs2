@@ -47,6 +47,10 @@ nav.page-toc {
 
 }
 
+.gitbook-link {
+    display: none !important;
+}
+
 /* media query here */
 
 @media screen and (max-width: 1800px) {
