@@ -2,25 +2,18 @@
  * @module Signature
  */
 // copyright defined in eosjs2/LICENSE.txt
-
 "use strict";
 
 import * as ecc from "eosjs-ecc";
 import { SignatureProvider, SignatureProviderArgs } from "./eosjs2-api";
 import { convertLegacyPublicKey } from "./eosjs2-numeric";
 
-/**
-Signs transactions using in-process private keys
-*/
+/** Signs transactions using in-process private keys */
 export default class JsSignatureProvider implements SignatureProvider {
-    /**
-    map public to private keys
-    */
+    /** map public to private keys */
     public keys = new Map<string, string>();
 
-    /**
-    public keys
-    */
+    /** public keys */
     public availableKeys = [] as string[];
 
     /** @param privateKeys private keys to sign with */
